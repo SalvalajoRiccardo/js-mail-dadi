@@ -1,10 +1,10 @@
 
 
 
-var utente = Math.floor(Math.random() * 10);
+var utente = Math.floor(Math.random() * 6 + 1);
 console.log('utente ' + utente);
 
-var pc = Math.floor(Math.random() * 10);
+var pc = Math.floor(Math.random() * 6 + 1);
 console.log('pc ' + pc);
 
 var risultato = "Pareggio"
